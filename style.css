@@ -4,7 +4,8 @@ body {
 
 h1 {
     color: oklch(0.6 0.2 300);
-    border: 2px solid oklch(0.6 0.2 300);
+    border: .5rem solid oklch(0.6 0.2 300);
+    border-radius: 2rem;
     padding: 1rem;
     text-align: center;
     font-size: 5rem;
