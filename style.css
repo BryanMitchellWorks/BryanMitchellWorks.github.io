@@ -1,12 +1,25 @@
 body {
-    background-color: tan;
+    background-color: oklch(0.25 0 0);
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 h1 {
-    color: oklch(0.6 0.2 300);
-    border: .5rem solid oklch(0.6 0.2 300);
+    color: oklch(.90 0 0);
+    border: .5rem solid oklch(.90 0 0);
     border-radius: 2rem;
-    padding: 1rem;
-    text-align: center;
+    padding: 1rem 1rem 0 1rem;
     font-size: 5rem;
+    line-height: 1;
+}
+
+p {
+    font-size: 2rem;
+    color: oklch(.80 0 0);
 }
